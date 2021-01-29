@@ -24,17 +24,15 @@ public class MainActivity extends AppCompatActivity {
         Button seekButton = findViewById(R.id.seek);
         EditText inputTimeEditView = findViewById(R.id.input_time);
 
-        View.OnClickListener playOnClick = v -> mediaPlayer.start();
-        playButton.setOnClickListener(playOnClick);
 
-        View.OnClickListener pauseOnClick = v -> mediaPlayer.pause();
-        pauseButton.setOnClickListener(pauseOnClick);
+        playButton.setOnClickListener(v -> mediaPlayer.start());
 
-        View.OnClickListener seekOnClick = v -> {
+        pauseButton.setOnClickListener(v -> mediaPlayer.pause());
+
+        seekButton.setOnClickListener(v -> {
             int inputTime = Integer.parseInt(inputTimeEditView.getText().toString());
             mediaPlayer.seekTo(inputTime);
             mediaPlayer.start();
-        };
-        seekButton.setOnClickListener(seekOnClick);
+        });
     }
 }
