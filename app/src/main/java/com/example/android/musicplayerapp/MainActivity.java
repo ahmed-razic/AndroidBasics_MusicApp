@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
 
     private MediaPlayer mediaPlayer;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,8 +36,5 @@ public class MainActivity extends AppCompatActivity {
             mediaPlayer.start();
         };
         seekButton.setOnClickListener(seekOnClick);
-
-
-
     }
 }

@@ -17,23 +17,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/play"
-            android:onClick="play" />
+            android:text="@string/play" />
 
         <Button
             android:id="@+id/pause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/pause"
-            android:onClick="pause"/>
+            android:text="@string/pause" />
 
         <Button
             android:id="@+id/seek"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/seek"
-            android:onClick="seek"/>
+            android:text="@string/seek" />
 
         <EditText
             android:id="@+id/input_time"
