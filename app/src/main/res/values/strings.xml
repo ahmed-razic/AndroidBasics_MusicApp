@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="seek">Seek</string>
+    <string name="input_seek_in_seconds">input_seek</string>
+</resources>
